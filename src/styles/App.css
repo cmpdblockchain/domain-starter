@@ -85,6 +85,17 @@ header{
   max-width: 550px;
 }
 
+.not-connected-wallet-container {
+  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 550px;
+  height: 500px;
+  width: 500px;
+}
+
+
 .connect-wallet-container img {
   padding-bottom: 20px;
 }
@@ -99,8 +110,14 @@ header{
     #cf556c 78%,
     #b12a5b 100%
   );
+  animation: gradient-animation 4s ease infinite;
+  font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
+  margin: 20px 50px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+
 }
 
 .mint-button {
@@ -108,6 +125,16 @@ header{
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
+  margin: 20px 10px;
+  border-radius: 20px;
+  padding: 0px 2rem;
+}
+
+.switch-button {
+  background: -webkit-linear-gradient(left, #4c6bdb, #65e476);
+  font-size: 18px;
+  background-size: 200% 200%;
+  animation: gradient-animation 3s ease infinite;
   margin: 20px 10px;
   border-radius: 20px;
   padding: 0px 2rem;
